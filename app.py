@@ -276,3 +276,7 @@ def polarity_sum():
         rowInfo = {'polarity': row.key, 'sum': row.value}
         data.append(rowInfo)
     return data
+
+if __name__ == '__main__':
+    app.run(debug=True,host='0.0.0.0',port='8000')
+
